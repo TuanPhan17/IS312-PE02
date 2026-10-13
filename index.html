@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuan Phan | Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="resume">
+
+    <!-- Profile -->
+    <header class="profile">
+      <img src="profile.jpg" alt="Photo of Tuan Phan" class="profile-photo">
+      <div>
+        <p class="eyebrow">PERSONAL RESUME</p>
+        <h1>Tuan Phan<span>.</span></h1>
+        <p class="job-title">Computer Science Student · Software Developer</p>
+        <p class="intro">Full-stack development, clean code, and practical software solutions.</p>
+      </div>
+    </header>
+
+    <!-- Work Experience: click each job to see details -->
+    <section aria-labelledby="experience-title">
+      <h2 id="experience-title">Work Experience</h2>
+
+      <details class="accordion">
+        <summary>
+          <span>
+            <strong>Sales Consultant</strong>
+            <small>Dwayne Lane's Auto Family</small>
+          </span>
+          <span class="date">2024 – 2025</span>
+        </summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Averaged 10 vehicle sales per month.</li>
+            <li>Managed customer outreach and the sales process.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="accordion">
+        <summary>
+          <span>
+            <strong>Assistant Manager</strong>
+            <small>7-Eleven</small>
+          </span>
+          <span class="date">2021 – 2022</span>
+        </summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Supervised employees, scheduling, and hiring.</li>
+            <li>Managed inventory and daily cash reconciliation.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- Skills: accordion and styled table -->
+    <section aria-labelledby="skills-title">
+      <h2 id="skills-title">Technical Skills</h2>
+
+      <details class="accordion" open>
+        <summary>
+          <span>
+            <strong>My Skills</strong>
+            <small>Languages, frameworks, and tools</small>
+          </span>
+        </summary>
+
+        <div class="accordion-body table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Technologies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Languages</th>
+                <td>TypeScript, JavaScript, Java, Python, SQL</td>
+              </tr>
+              <tr>
+                <th>Frontend</th>
+                <td>React, React Native, Expo, HTML/CSS</td>
+              </tr>
+              <tr>
+                <th>Backend</th>
+                <td>FastAPI, Spring Boot, Node.js, Express</td>
+              </tr>
+              <tr>
+                <th>Databases</th>
+                <td>MySQL, MongoDB, JPA/Hibernate</td>
+              </tr>
+              <tr>
+                <th>Tools</th>
+                <td>Git, GitHub, Docker, Maven, VS Code</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <!-- Education Accordion -->
+    <section aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+
+      <details class="accordion" open>
+        <summary>
+          <span>
+            <strong>My Education</strong>
+            <small>Degree and certificate</small>
+          </span>
+        </summary>
+
+        <div class="accordion-body education-list">
+          <div class="school">
+            <div>
+              <strong>City University of Seattle</strong>
+              <small>B.S. Computer Science · Expected Dec 2027</small>
+            </div>
+            <span class="gpa">GPA 3.9 / 4.0</span>
+          </div>
+
+          <div class="school">
+            <div>
+              <strong>Coding Dojo</strong>
+              <small>Software Engineering Certificate · 2023</small>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- Contact -->
+    <footer>
+      <strong>Let's connect</strong>
+
+      <div class="contact-links">
+        <a href="mailto:t_phan17@yahoo.com">Email ↗</a>
+
+        <a href="https://github.com/TuanPhan17"
+           target="_blank"
+           rel="noopener noreferrer">
+          GitHub ↗
+        </a>
+
+        <a href="https://www.linkedin.com/in/tuan-phan-422983264/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn ↗
+        </a>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
